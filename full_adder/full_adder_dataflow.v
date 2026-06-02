@@ -1,4 +1,4 @@
-module fa_dataflow(
+module fa(
     input a,b,cin,
     output sum,cout
 );
