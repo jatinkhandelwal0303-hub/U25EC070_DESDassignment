@@ -1,4 +1,4 @@
-module(
+module fa(
     input a,
     input b,
     input cin,
