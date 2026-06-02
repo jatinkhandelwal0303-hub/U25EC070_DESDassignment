@@ -1,4 +1,4 @@
-module fa_structural(
+module fa(
     input a,b,cin,
     output sum,cout
 );
