@@ -1,15 +1,4 @@
-p of your testbench.
 
-You have written:
-$dumpfile("dump.vcd");
-$dumpvars(0, tb_booth_multiplier);
-
-`timescale 1ns/1ps
-
-
-The problem is that $dumpfile and $dumpvars are outside the initial block. They must be placed inside an initial block. Also, put the `timescale directive at the very top of the file.
-Correct your testbench.sv
-Replace your testbench with this code:
 `timescale 1ns/1ps
 
 module tb_booth_multiplier;
